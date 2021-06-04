@@ -1,0 +1,32 @@
+current directory: /home/gcalquin/g44/proyectos/manual-jam/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+/home/gcalquin/.rvm/rubies/ruby-2.4.0/bin/ruby -I /home/gcalquin/.rvm/rubies/ruby-2.4.0/lib/ruby/site_ruby/2.4.0 -r ./siteconf20210603-17085-s1ca4u.rb extconf.rb
+creating Makefile
+
+current directory: /home/gcalquin/g44/proyectos/manual-jam/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /home/gcalquin/g44/proyectos/manual-jam/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+In file included from /home/gcalquin/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from websocket_mask.c:1:
+/home/gcalquin/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:631:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  631 | CONSTFUNC(void rb_secure_update(VALUE));
+      | ^~~~~~~~~
+In file included from /home/gcalquin/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:2005,
+                 from /home/gcalquin/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby.h:33,
+                 from websocket_mask.c:1:
+/home/gcalquin/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:257:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  257 | CONSTFUNC(void rb_error_untrusted(VALUE));
+      | ^~~~~~~~~
+/home/gcalquin/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/intern.h:259:1: warning: ‘const’ attribute on function returning ‘void’ [-Wattributes]
+  259 | CONSTFUNC(void rb_check_trusted(VALUE));
+      | ^~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+linking shared-object websocket_mask.so
+
+current directory: /home/gcalquin/g44/proyectos/manual-jam/vendor/bundle/gems/websocket-driver-0.6.5/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20210603-17085-15ng8ma
