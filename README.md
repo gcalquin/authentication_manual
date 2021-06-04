@@ -1,3 +1,12 @@
+Para ejecutar este proyecto
+
+Se esta ulitizando la version 2.6.0
+
+Link a heroku
+
+https://authenticationmanualgcc.herokuapp.com/
+
+
 # Actividad Presencial I
 ## Autenticación Manual desde cero
 
